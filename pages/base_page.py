@@ -13,4 +13,4 @@ class BasePage():
         return self.driver.find_element(By.CSS_SELECTOR, locator)
 
     def get_url(self):
-        return self.driver.current.url
+        return self.driver.current_url
